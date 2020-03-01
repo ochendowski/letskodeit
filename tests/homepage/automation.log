@@ -1,0 +1,189 @@
+01/24/2020 09:57:48 PM - LoginPage - INFO: Found element using by_type link text and locator Login
+01/24/2020 09:57:48 PM - LoginPage - INFO: Clicked on element with locator Login and locator_type text
+01/24/2020 09:59:09 PM - LoginPage - INFO: Found element using by_type id and locator user_email
+01/24/2020 09:59:09 PM - LoginPage - ERROR: 'NoneType' object has no attribute 'send_keys'
+01/24/2020 09:59:09 PM - LoginPage - ERROR: Cannot send data test@email.com to element with locator user_email and locator_type id
+01/24/2020 09:59:09 PM - LoginPage - ERROR: element not found using id and user_password
+01/24/2020 09:59:09 PM - LoginPage - ERROR: 'NoSuchWindowException' object has no attribute 'send_keys'
+01/24/2020 09:59:09 PM - LoginPage - ERROR: Cannot send data abcabcbc to element with locator user_password and locator_type id
+01/24/2020 09:59:09 PM - LoginPage - ERROR: element not found using name and commit
+01/24/2020 09:59:09 PM - LoginPage - ERROR: 'NoSuchWindowException' object has no attribute 'click'
+01/24/2020 09:59:09 PM - LoginPage - ERROR: Cannot click on the element with locator commit and locator_type name
+01/24/2020 09:59:09 PM - LoginPage - ERROR: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+
+01/24/2020 09:59:09 PM - LoginPage - ERROR: element not found using id and user_email
+01/24/2020 10:20:06 PM - LoginPage - INFO: Found element using by_type link text and locator Login
+01/24/2020 10:20:08 PM - LoginPage - INFO: Clicked on element with locator Login and locator_type text
+01/24/2020 10:20:08 PM - LoginPage - INFO: Found element using by_type id and locator user_email
+01/24/2020 10:20:08 PM - LoginPage - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/24/2020 10:20:08 PM - LoginPage - INFO: Found element using by_type id and locator user_password
+01/24/2020 10:20:08 PM - LoginPage - INFO: Sent data abcabcbc to element with locator user_password and locator_type id
+01/24/2020 10:20:08 PM - LoginPage - INFO: Found element using by_type name and locator commit
+01/24/2020 10:20:10 PM - LoginPage - INFO: Clicked on element with locator commit and locator_type name
+01/24/2020 10:20:10 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login failed
+01/24/2020 10:20:10 PM - Status - INFO: test_login_failed_wrong_password ### TEST SUCCESSFUL
+01/24/2020 10:20:10 PM - LoginPage - INFO: Found element using by_type id and locator user_email
+01/24/2020 10:20:10 PM - LoginPage - INFO: Found element using by_type id and locator user_password
+01/24/2020 10:20:13 PM - LoginPage - ERROR: element not found using link text and Login
+01/24/2020 10:20:13 PM - LoginPage - ERROR: 'NoSuchElementException' object has no attribute 'click'
+01/24/2020 10:20:13 PM - LoginPage - ERROR: Cannot click on the element with locator Login and locator_type text
+01/24/2020 10:20:13 PM - LoginPage - INFO: Found element using by_type id and locator user_email
+01/24/2020 10:20:13 PM - LoginPage - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/24/2020 10:20:13 PM - LoginPage - INFO: Found element using by_type id and locator user_password
+01/24/2020 10:20:13 PM - LoginPage - INFO: Sent data abcabc to element with locator user_password and locator_type id
+01/24/2020 10:20:13 PM - LoginPage - INFO: Found element using by_type name and locator commit
+01/24/2020 10:20:16 PM - LoginPage - INFO: Clicked on element with locator commit and locator_type name
+01/24/2020 10:20:16 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Title is incorrect
+01/24/2020 10:20:16 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login failed
+01/24/2020 10:20:16 PM - Status - INFO: test_login_successful ### TEST SUCCESSFUL
+01/29/2020 06:45:12 PM - SeleniumDriver - INFO: Found element using by_type link text and locator Login
+01/29/2020 06:45:13 PM - SeleniumDriver - INFO: Clicked on element with locator Login and locator_type text
+01/29/2020 06:45:15 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:45:15 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/29/2020 06:45:15 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:45:15 PM - SeleniumDriver - INFO: Sent data abcabcbc to element with locator user_password and locator_type id
+01/29/2020 06:45:15 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/29/2020 06:45:17 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/29/2020 06:45:17 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login failed
+01/29/2020 06:45:17 PM - Status - INFO: test_login_failed_wrong_password ### TEST SUCCESSFUL
+01/29/2020 06:45:17 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:45:17 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:45:20 PM - SeleniumDriver - ERROR: element not found using link text and Login
+01/29/2020 06:45:20 PM - SeleniumDriver - ERROR: 'NoSuchElementException' object has no attribute 'click'
+01/29/2020 06:45:20 PM - SeleniumDriver - ERROR: Cannot click on the element with locator Login and locator_type text
+01/29/2020 06:45:20 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:45:20 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/29/2020 06:45:20 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:45:20 PM - SeleniumDriver - INFO: Sent data abcabc to element with locator user_password and locator_type id
+01/29/2020 06:45:20 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/29/2020 06:45:23 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/29/2020 06:45:23 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Title is incorrect
+01/29/2020 06:45:23 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login failed
+01/29/2020 06:45:23 PM - Status - INFO: test_login_successful ### TEST SUCCESSFUL
+01/29/2020 06:45:42 PM - SeleniumDriver - INFO: Found element using by_type link text and locator Login
+01/29/2020 06:45:43 PM - SeleniumDriver - INFO: Clicked on element with locator Login and locator_type text
+01/29/2020 06:45:45 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:45:45 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/29/2020 06:45:45 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:45:45 PM - SeleniumDriver - INFO: Sent data abcabcbc to element with locator user_password and locator_type id
+01/29/2020 06:45:45 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/29/2020 06:45:47 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/29/2020 06:45:47 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login failed
+01/29/2020 06:45:47 PM - Status - INFO: test_login_failed_wrong_password ### TEST SUCCESSFUL
+01/29/2020 06:45:47 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:45:47 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:45:50 PM - SeleniumDriver - ERROR: element not found using link text and Login
+01/29/2020 06:45:50 PM - SeleniumDriver - ERROR: 'NoSuchElementException' object has no attribute 'click'
+01/29/2020 06:45:50 PM - SeleniumDriver - ERROR: Cannot click on the element with locator Login and locator_type text
+01/29/2020 06:45:50 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:45:50 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/29/2020 06:45:50 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:45:50 PM - SeleniumDriver - INFO: Sent data abcabc to element with locator user_password and locator_type id
+01/29/2020 06:45:50 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/29/2020 06:45:52 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/29/2020 06:45:52 PM - Status - ERROR: ### VERIFICATION FAILED : Title is incorrect
+01/29/2020 06:45:52 PM - SeleniumDriver - INFO: ### Screenshot saved to directory /Users/justinochendowski/PycharmProjects/letskodeit/base/../screenshots/Title is incorrect.1580352353.png
+01/29/2020 06:45:53 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login failed
+01/29/2020 06:45:53 PM - Status - INFO: test_login_successful ### TEST FAILED
+01/29/2020 06:50:49 PM - SeleniumDriver - INFO: Found element using by_type link text and locator Login
+01/29/2020 06:50:50 PM - SeleniumDriver - INFO: Clicked on element with locator Login and locator_type text
+01/29/2020 06:50:52 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:50:52 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/29/2020 06:50:52 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:50:52 PM - SeleniumDriver - INFO: Sent data abcabcbc to element with locator user_password and locator_type id
+01/29/2020 06:50:52 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/29/2020 06:50:54 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/29/2020 06:50:54 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login failed
+01/29/2020 06:50:54 PM - Status - INFO: test_login_failed_wrong_password ### TEST SUCCESSFUL
+01/29/2020 06:50:54 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:50:54 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:50:57 PM - SeleniumDriver - ERROR: element not found using link text and Login
+01/29/2020 06:50:57 PM - SeleniumDriver - ERROR: 'NoSuchElementException' object has no attribute 'click'
+01/29/2020 06:50:57 PM - SeleniumDriver - ERROR: Cannot click on the element with locator Login and locator_type text
+01/29/2020 06:50:57 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:50:57 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/29/2020 06:50:57 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:50:57 PM - SeleniumDriver - INFO: Sent data abcabc to element with locator user_password and locator_type id
+01/29/2020 06:50:57 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/29/2020 06:50:59 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/29/2020 06:50:59 PM - Status - ERROR: ### VERIFICATION FAILED : Title Verification
+01/29/2020 06:50:59 PM - SeleniumDriver - INFO: ### Screenshot saved to directory /Users/justinochendowski/PycharmProjects/letskodeit/base/../screenshots/Title Verification.1580352659.png
+01/29/2020 06:50:59 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login Verification
+01/29/2020 06:50:59 PM - Status - ERROR: test_login_successful ### TEST FAILED
+01/29/2020 06:55:51 PM - SeleniumDriver - INFO: Found element using by_type link text and locator Login
+01/29/2020 06:55:54 PM - SeleniumDriver - INFO: Clicked on element with locator Login and locator_type text
+01/29/2020 06:55:54 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:55:54 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/29/2020 06:55:54 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:55:54 PM - SeleniumDriver - INFO: Sent data abcabcbc to element with locator user_password and locator_type id
+01/29/2020 06:55:54 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/29/2020 06:55:56 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/29/2020 06:55:56 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login failed
+01/29/2020 06:55:56 PM - Status - INFO: test_login_failed_wrong_password ### TEST SUCCESSFUL
+01/29/2020 06:55:56 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:55:56 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:55:59 PM - SeleniumDriver - ERROR: element not found using link text and Login
+01/29/2020 06:55:59 PM - SeleniumDriver - ERROR: 'NoSuchElementException' object has no attribute 'click'
+01/29/2020 06:55:59 PM - SeleniumDriver - ERROR: Cannot click on the element with locator Login and locator_type text
+01/29/2020 06:55:59 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/29/2020 06:55:59 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/29/2020 06:55:59 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/29/2020 06:55:59 PM - SeleniumDriver - INFO: Sent data abcabc to element with locator user_password and locator_type id
+01/29/2020 06:55:59 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/29/2020 06:56:02 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/29/2020 06:56:02 PM - Status - ERROR: ### VERIFICATION FAILED : Title Verification
+01/29/2020 06:56:02 PM - SeleniumDriver - INFO: ### Screenshot saved to directory /Users/justinochendowski/PycharmProjects/letskodeit/base/../screenshots/Title Verification.1580352962.png
+01/29/2020 06:56:02 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login Verification
+01/29/2020 06:56:02 PM - Status - ERROR: test_login_successful ### TEST FAILED
+01/30/2020 04:12:17 PM - SeleniumDriver - INFO: Found element using by_type link text and locator Login
+01/30/2020 04:12:17 PM - SeleniumDriver - INFO: Clicked on element with locator Login and locator_type text
+01/30/2020 04:12:20 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/30/2020 04:12:20 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/30/2020 04:12:20 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/30/2020 04:12:20 PM - SeleniumDriver - INFO: Sent data abcabcbc to element with locator user_password and locator_type id
+01/30/2020 04:12:20 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/30/2020 04:12:22 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/30/2020 04:12:22 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login failed
+01/30/2020 04:12:22 PM - Status - INFO: test_login_failed_wrong_password ### TEST SUCCESSFUL
+01/30/2020 04:12:22 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/30/2020 04:12:22 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/30/2020 04:12:25 PM - SeleniumDriver - ERROR: element not found using link text and Login
+01/30/2020 04:12:25 PM - SeleniumDriver - ERROR: 'NoSuchElementException' object has no attribute 'click'
+01/30/2020 04:12:25 PM - SeleniumDriver - ERROR: Cannot click on the element with locator Login and locator_type text
+01/30/2020 04:12:25 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/30/2020 04:12:25 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/30/2020 04:12:25 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/30/2020 04:12:25 PM - SeleniumDriver - INFO: Sent data abcabc to element with locator user_password and locator_type id
+01/30/2020 04:12:25 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/30/2020 04:12:27 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/30/2020 04:12:27 PM - Status - ERROR: ### VERIFICATION FAILED : Title Verification
+01/30/2020 04:12:27 PM - SeleniumDriver - INFO: ### Screenshot saved to directory /Users/justinochendowski/PycharmProjects/letskodeit/base/../screenshots/Title Verification.1580429548.png
+01/30/2020 04:12:27 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login Verification
+01/30/2020 04:12:27 PM - Status - ERROR: test_login_successful ### TEST FAILED
+01/30/2020 04:14:39 PM - SeleniumDriver - INFO: Found element using by_type link text and locator Login
+01/30/2020 04:14:39 PM - SeleniumDriver - INFO: Clicked on element with locator Login and locator_type text
+01/30/2020 04:14:41 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/30/2020 04:14:41 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/30/2020 04:14:41 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/30/2020 04:14:41 PM - SeleniumDriver - INFO: Sent data abcabcbc to element with locator user_password and locator_type id
+01/30/2020 04:14:41 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/30/2020 04:14:43 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/30/2020 04:14:43 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login Failed Verification
+01/30/2020 04:14:43 PM - Status - INFO: test_login_failed_wrong_password ### TEST SUCCESSFUL
+01/30/2020 04:14:43 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/30/2020 04:14:43 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/30/2020 04:14:46 PM - SeleniumDriver - ERROR: element not found using link text and Login
+01/30/2020 04:14:46 PM - SeleniumDriver - ERROR: 'NoSuchElementException' object has no attribute 'click'
+01/30/2020 04:14:46 PM - SeleniumDriver - ERROR: Cannot click on the element with locator Login and locator_type text
+01/30/2020 04:14:46 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_email
+01/30/2020 04:14:46 PM - SeleniumDriver - INFO: Sent data test@email.com to element with locator user_email and locator_type id
+01/30/2020 04:14:46 PM - SeleniumDriver - INFO: Found element using by_type id and locator user_password
+01/30/2020 04:14:46 PM - SeleniumDriver - INFO: Sent data abcabc to element with locator user_password and locator_type id
+01/30/2020 04:14:46 PM - SeleniumDriver - INFO: Found element using by_type name and locator commit
+01/30/2020 04:14:48 PM - SeleniumDriver - INFO: Clicked on element with locator commit and locator_type name
+01/30/2020 04:14:49 PM - Status - ERROR: ### VERIFICATION FAILED : Title Verification
+01/30/2020 04:14:49 PM - SeleniumDriver - INFO: ### Screenshot saved to directory /Users/justinochendowski/PycharmProjects/letskodeit/base/../screenshots/Title Verification.1580429689.png
+01/30/2020 04:14:49 PM - Status - INFO: ### VERIFICATION SUCCESSFUL : Login Verification
+01/30/2020 04:14:49 PM - Status - ERROR: test_login_successful ### TEST FAILED
