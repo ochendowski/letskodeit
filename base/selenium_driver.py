@@ -95,7 +95,7 @@ class SeleniumDriver():
 
     def take_screenshot(self,result_message):
         """
-        Takes screenshot of the current web page
+        Takes screenshot of the current web pages
         """
         file_name = result_message + "." + str(round(time.time())) + ".png"
         screenshot_directory = "../screenshots/"

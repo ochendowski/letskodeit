@@ -8,6 +8,7 @@ def customLogger(logLevel=logging.DEBUG):
     # By default, log all messages
     logger.setLevel(logging.DEBUG)
 
+    # appending the logs and saving it to the package
     fileHandler = logging.FileHandler("automation.log", mode='a')
     fileHandler.setLevel(logLevel)
 
