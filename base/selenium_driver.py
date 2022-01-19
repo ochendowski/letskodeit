@@ -35,14 +35,15 @@ class SeleniumDriver():
         else:
             return f"No such locatar type {locator_type}"
 
-    def find_element(self,locator,locator_type="id"):
+    def find_element(self, locator, locator_type="id"):
         try:
+            locator_type = locator_type.lower()
             by = self.get_by(locator_type)
-            element = self.driver.find_element(by,locator)
-            self.log.info(f"Found element using by_type {by} and locator {locator}")
+            element = self.driver.find_element(by, locator)
+            self.log.info(f"Found element using by_type {locator_type} and locator {locator}")
             return element
         except Exception as f:
-            self.log.error(f"element not found using {by} and {locator}")
+            self.log.error(f"element not found using {locator_type} and {locator}")
             return f
 
     def click_element(self,locator,locator_type="id"):
@@ -66,8 +67,7 @@ class SeleniumDriver():
 
     def element_is_present(self,locator,locator_type="id"):
         try:
-            by = self.get_by(locator_type)
-            element = self.driver.find_elements(by,locator)
+            element = self.driver.find_elements(locator,locator_type)
 
             if len(element) > 0:
                 return True
@@ -85,7 +85,7 @@ class SeleniumDriver():
     def wait_for_element(self,locator,locator_type="id"):
         try:
             by = self.get_by(locator_type)
-            wait = WebDriverWait(self.driver,10,poll_frequencey=1)
+            wait = WebDriverWait(self.driver, 10)
             element = wait.until(EC.element_to_be_clickable((by,locator)))
             self.log.info("Element appeared on the web page")
             return element
